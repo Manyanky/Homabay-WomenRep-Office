@@ -1,0 +1,45 @@
+@import url(http://fonts.googleapis.com/css?family=Varela Round);
+
+body{
+    font-family: 'Varela Round';
+    background-color: blueviolet;
+    margin: 0;
+}
+body >div
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#logo
+{
+    color: white;
+    margin: 0;
+    width: 100%;
+    background-color: brown;
+    background-image: -webkit-linear-gradient(green);
+    background-image: -moz-linear-gradient(top,yellow);
+    background-image: -ms-linear-gradient(blue);
+    background-image: -o-linear-gradient(red);
+    background-image: linear-gradient(grey);
+    filter: progid:DXimageTransform.Microsoft.gradient;
+}
+
+#content{
+    background-color: rgba(0, 0, 0, .5);
+    height: 50%;
+}
+#subContent{
+    width: 91.5%;
+    min-height: 25%;
+    max-height: 25%;
+}
+#footer > div{
+    background-color: rgba(0, 0, 0, .5);
+    height: 23%;
+    display: inline-block;
+    width: 29%;
+    margin-top: 2%
+}
